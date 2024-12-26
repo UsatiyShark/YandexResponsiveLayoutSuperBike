@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+    font-weight: bold;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .page {
+    margin: auto;
+    max-width: 1280px;
+  }
+  
+  .header__container {
+    display: flex;
+    align-items: center;
+    height: 120px;
+  }
+  
+  .header__title {
+    color: #0f0f0f;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sidebar__item {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #0f0f0f;
+    text-transform: uppercase;
+  }
+  
+  .product {
+    width: 100%;
+  }
+  
+  .product__image {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .product__title {
+    font-size: 1.3rem;
+    margin: 10px 0 5px 0;
+  }
+  
+  .product__text {
+    font-size: 0.6em;
+    line-height: 1.5;
+  }
+  
+  .footer__container {
+    height: 120px;
+    padding: 70px 40px 0 40px;
+  }
+  
+  .footer__copyright {
+    color: #0f0f0f;
+  }
